@@ -4,19 +4,14 @@ module.exports = {
     ecmaVersion: 2020,
     sourceType: "module",
     ecmaFeatures: {
-      jsx: true,
-    },
+      jsx: true
+    }
   },
   settings: {
     react: {
-      version: "detect",
-    },
+      version: "detect"
+    }
   },
-  extends: [
-    "plugin:@typescript-eslint/recommended",
-    "plugin:react-hooks/recommended",
-    "plugin:react/recommended",
-    "prettier",
-  ],
-  rules: {},
+  extends: ["plugin:@typescript-eslint/recommended", "plugin:react-hooks/recommended", "plugin:react/recommended", "prettier", "plugin:storybook/recommended"],
+  rules: {}
 };
