@@ -10,7 +10,7 @@ export const CounterComponent = ({ title }: { title: string }) => {
   return (
     <div className="m-4 p-4 bg-blue border jne jne">
       <h3 className="text-3xl font-bold underline">{title}</h3>
-      <p className="text-normal">Counter value is {counterValue}</p>
+      <p className="text-slate-600 text-normal">Counter value is {counterValue}</p>
       <button className="button" onClick={onClickHandler}>
         ClicK!
       </button>
